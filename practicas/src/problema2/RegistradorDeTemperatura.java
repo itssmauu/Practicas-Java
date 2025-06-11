@@ -7,9 +7,19 @@ public class RegistradorDeTemperatura {
     public static void main(String[] args) {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
+
         try{
             System.out.println("Ingrese la cantidad de dias a registrar: ");
-            int cantidadDias = Integer.parseInt(bufferedReader.readLine());
+            int cantidadDias;
+
+            try {
+                cantidadDias = Integer.parseInt(bufferedReader.readLine());
+            }
+            catch (NumberFormatException e){
+                System.err.println("Debe ingresar un número entero.");
+                return;
+            }
+
             if (cantidadDias>=1)
             {
                 double temperaturaMax = -50;

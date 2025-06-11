@@ -8,7 +8,7 @@ public class GestionarContrasena {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         ValidadorDeContrasena validadorDeContrasena = new ValidadorDeContrasena();
-        
+
         try {
             while (true) {
                 System.out.println("Ingrese una contraseña");

@@ -9,6 +9,7 @@ public class AdivinadorDeFuturo {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         try {
+            int a=1;
             do{
                 System.out.println("---ADIVINADOR DE FUTURO---");
                 System.out.print("Ingrese su nombre: ");
@@ -29,7 +30,7 @@ public class AdivinadorDeFuturo {
 
                 System.out.print("Desea añadir otro cliente(Si/No): ");
 
-            }while ()
+            }while (a!=1);
 
 
 

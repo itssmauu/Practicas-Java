@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6831d5ad-6c04-418d-b59a-9aca8c2a2e83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problema5/AdivinadorDeFuturo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problema5/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/CampoVacioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/FechaInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/GestionDePlanilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/SoloLetrasExcpetion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problema6/Validadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problema4/ValidadorFecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problema4/ValidadorFecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problema5/AdivinadorDeFuturo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problema5/AdivinadorDeFuturo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +40,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdivinadorDeFuturo.executor": "Run",
+    "Application.GestionDePlanilla.executor": "Run",
     "Application.GestionarContrasena.executor": "Run",
     "Application.RegistradorDeTemperatura.executor": "Run",
     "Application.RegistradorNumeros.executor": "Run",

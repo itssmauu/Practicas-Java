@@ -23,11 +23,11 @@ public class ValidadorFecha {
         if (dia<1 || dia>diasDelmes(mes, anio)){
             throw new FechaInvalidaException("Día fuera de rango para el mes ingresado.");
         }
-        if (anio<1900 || anio>2025){
-            throw new FechaInvalidaException("Año fuera de rango válido (1900-2025)");
+        if (anio<1900 || anio>2006){
+            throw new FechaInvalidaException("Año fuera de rango válido (1900-2006)");
         }
-        if (anio==2025 && mes>6){
-            throw new FechaInvalidaException("la fecha no puede estar en el futuro");
+        if (anio>2006){
+            throw new FechaInvalidaException("Fecha fuera del limite de edad.");
         }
     }
 
